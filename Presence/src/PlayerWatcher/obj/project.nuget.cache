@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yTtB8LiIwcs3OzLzNjRlXQLs0INs1HMfSzxpmKYbAvhMkRa2af2i6JTUAcdiZ6qC0XKiFKkYrBaiSIVfhMxwOg==",
+  "dgSpecHash": "3ZH5HLIVIBWfrIoa6WOj9IPf+AI/hvdbORzfLsJUk3rHQLZOG0oID3utbYRPNAPrk0yjTFWWTqA/ymz9ILl36g==",
   "success": true,
-  "projectFilePath": "C:\\src\\theme-park\\samples\\Presence\\src\\PlayerWatcher\\PlayerWatcher.csproj",
+  "projectFilePath": "C:\\src\\local-park\\Presence\\src\\PlayerWatcher\\PlayerWatcher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.0.0\\microsoft.aspnetcore.connections.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.0.0\\microsoft.aspnetcore.http.features.3.0.0.nupkg.sha512",

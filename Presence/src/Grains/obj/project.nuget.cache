@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "snZIQThlbuLF3M/wFTXRg+JR4zDY5kUIfcRK1h8IiP3UkLNMzjnnz5GIjxukLByzvrtxzoFfHcDZga+6JtXYZQ==",
+  "dgSpecHash": "EMaEo7TBbTyu2xoLD5efBujw1385su9Ch295WZULi9YjFGekfvAPewzYYd1BDPOfd/xIe+302qoCW6j+yT/nBw==",
   "success": true,
-  "projectFilePath": "C:\\src\\theme-park\\samples\\Presence\\src\\Grains\\Grains.csproj",
+  "projectFilePath": "C:\\src\\local-park\\Presence\\src\\Grains\\Grains.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

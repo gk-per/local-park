@@ -1343,19 +1343,18 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "3.0.0-dev",
+    "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\theme-park\\samples\\Presence\\src\\Grains.Interfaces\\Grains.Interfaces.csproj",
+      "projectUniqueName": "C:\\src\\local-park\\Presence\\src\\Grains.Interfaces\\Grains.Interfaces.csproj",
       "projectName": "Grains.Interfaces",
-      "projectPath": "C:\\src\\theme-park\\samples\\Presence\\src\\Grains.Interfaces\\Grains.Interfaces.csproj",
+      "projectPath": "C:\\src\\local-park\\Presence\\src\\Grains.Interfaces\\Grains.Interfaces.csproj",
       "packagesPath": "C:\\Users\\19859\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\theme-park\\samples\\Presence\\src\\Grains.Interfaces\\obj\\",
+      "outputPath": "C:\\src\\local-park\\Presence\\src\\Grains.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\src\\theme-park\\NuGet.Config",
         "C:\\Users\\19859\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1364,6 +1363,7 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1373,7 +1373,6 @@
         }
       },
       "warningProperties": {
-        "allWarningsAsErrors": true,
         "warnAsError": [
           "NU1605"
         ]

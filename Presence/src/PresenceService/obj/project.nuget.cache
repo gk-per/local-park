@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6a2F95RJU95/oDgy8UJ2OURRPAnV+iwNRq/+1RoFn+kuUZ/U2wRJ9djWdLa2GAcTrObIn/xmD3IkhPygVPRe2Q==",
+  "dgSpecHash": "rzSBDi10U/l4WNDmAyD87uhSgXgC9APRk3BpoCc9rn/uIyyFh8PrqNb6UTA0+t2czbZFmid5nd0lQalNO4cNTA==",
   "success": true,
-  "projectFilePath": "C:\\src\\theme-park\\samples\\Presence\\src\\PresenceService\\PresenceService.csproj",
+  "projectFilePath": "C:\\src\\local-park\\Presence\\src\\PresenceService\\PresenceService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.0.0\\microsoft.aspnetcore.connections.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.0.0\\microsoft.aspnetcore.http.features.3.0.0.nupkg.sha512",

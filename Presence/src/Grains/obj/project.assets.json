@@ -257,7 +257,7 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "Grains.Interfaces/3.0.0-dev": {
+      "Grains.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -1373,7 +1373,7 @@
         "version.txt"
       ]
     },
-    "Grains.Interfaces/3.0.0-dev": {
+    "Grains.Interfaces/1.0.0": {
       "type": "project",
       "path": "../Grains.Interfaces/Grains.Interfaces.csproj",
       "msbuildProject": "../Grains.Interfaces/Grains.Interfaces.csproj"
@@ -1381,7 +1381,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Grains.Interfaces >= 3.0.0-dev",
+      "Grains.Interfaces >= 1.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 5.0.0",
       "Microsoft.Orleans.CodeGenerator.MSBuild >= 3.4.2",
       "Microsoft.Orleans.Core.Abstractions >= 3.4.2"
@@ -1392,19 +1392,18 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "3.0.0-dev",
+    "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\theme-park\\samples\\Presence\\src\\Grains\\Grains.csproj",
+      "projectUniqueName": "C:\\src\\local-park\\Presence\\src\\Grains\\Grains.csproj",
       "projectName": "Grains",
-      "projectPath": "C:\\src\\theme-park\\samples\\Presence\\src\\Grains\\Grains.csproj",
+      "projectPath": "C:\\src\\local-park\\Presence\\src\\Grains\\Grains.csproj",
       "packagesPath": "C:\\Users\\19859\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\theme-park\\samples\\Presence\\src\\Grains\\obj\\",
+      "outputPath": "C:\\src\\local-park\\Presence\\src\\Grains\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\src\\theme-park\\NuGet.Config",
         "C:\\Users\\19859\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1413,20 +1412,20 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\src\\theme-park\\samples\\Presence\\src\\Grains.Interfaces\\Grains.Interfaces.csproj": {
-              "projectPath": "C:\\src\\theme-park\\samples\\Presence\\src\\Grains.Interfaces\\Grains.Interfaces.csproj"
+            "C:\\src\\local-park\\Presence\\src\\Grains.Interfaces\\Grains.Interfaces.csproj": {
+              "projectPath": "C:\\src\\local-park\\Presence\\src\\Grains.Interfaces\\Grains.Interfaces.csproj"
             }
           }
         }
       },
       "warningProperties": {
-        "allWarningsAsErrors": true,
         "warnAsError": [
           "NU1605"
         ]
