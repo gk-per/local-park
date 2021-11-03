@@ -1,23 +1,33 @@
 LogLevel:Warning
-ProjectPath:C:\src\theme-park\samples\Blazor\BlazorServer\BlazorServer.csproj
+ProjectPath:C:\src\local-park\BlazorServerGame\BlazorServer.csproj
 ProjectGuid:
 AssemblyName:BlazorServer
 OutputType:Exe
-TargetPath:C:\src\theme-park\samples\Blazor\BlazorServer\bin\Debug\net5.0\BlazorServer.dll
-CodeGenOutputFile:C:\src\theme-park\samples\Blazor\BlazorServer\obj\Debug\net5.0\BlazorServer.orleans.g.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Grains\ITodoGrain.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Grains\ITodoManagerGrain.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Grains\IWeatherGrain.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Grains\TodoGrain.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Grains\TodoManagerGrain.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Grains\WeatherGrain.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Models\TodoItem.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Models\TodoNotification.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Models\WeatherInfo.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Program.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Services\TodoService.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Services\WeatherForecastService.cs
-Compile:C:\src\theme-park\samples\Blazor\BlazorServer\Startup.cs
+TargetPath:C:\src\local-park\BlazorServerGame\bin\Debug\net5.0\BlazorServer.dll
+CodeGenOutputFile:C:\src\local-park\BlazorServerGame\obj\Debug\net5.0\BlazorServer.orleans.g.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\GameGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\IGameGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\IGameObserver.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\IPlayerGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\IPresenceGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\ITodoGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\ITodoManagerGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\IWeatherGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\PlayerGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\PresenceGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\TodoGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\TodoManagerGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Grains\WeatherGrain.cs
+Compile:C:\src\local-park\BlazorServerGame\Models\GameStatus.cs
+Compile:C:\src\local-park\BlazorServerGame\Models\HeartbeatData.cs
+Compile:C:\src\local-park\BlazorServerGame\Models\HeartbeatDataDotNetSerializer.cs
+Compile:C:\src\local-park\BlazorServerGame\Models\TodoItem.cs
+Compile:C:\src\local-park\BlazorServerGame\Models\TodoNotification.cs
+Compile:C:\src\local-park\BlazorServerGame\Models\WeatherInfo.cs
+Compile:C:\src\local-park\BlazorServerGame\Program.cs
+Compile:C:\src\local-park\BlazorServerGame\Services\TodoService.cs
+Compile:C:\src\local-park\BlazorServerGame\Services\WeatherForecastService.cs
+Compile:C:\src\local-park\BlazorServerGame\Startup.cs
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Antiforgery.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.Cookies.dll
@@ -148,6 +158,7 @@ Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Win32.Primitives.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Win32.Registry.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\mscorlib.dll
+Reference:C:\Users\19859\.nuget\packages\msgpack.cli\1.0.1\lib\netstandard2.0\MsgPack.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\netstandard.dll
 Reference:C:\Users\19859\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll
 Reference:C:\Users\19859\.nuget\packages\microsoft.orleans.core.abstractions\3.4.3\lib\netstandard2.0\Orleans.Core.Abstractions.dll
@@ -157,6 +168,7 @@ Reference:C:\Users\19859\.nuget\packages\microsoft.orleans.orleansruntime\3.4.3\
 Reference:C:\Users\19859\.nuget\packages\microsoft.orleans.orleansproviders\3.4.3\lib\netstandard2.0\OrleansProviders.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.AppContext.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Buffers.dll
+Reference:C:\Users\19859\.nuget\packages\system.codedom\4.4.0\ref\netstandard2.0\System.CodeDom.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.Concurrent.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Collections.Immutable.dll
@@ -310,4 +322,4 @@ Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.XDocument.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll
 DefineConstants:TRACE,DEBUG,NET,NET5_0,NETCOREAPP
-InputHash:cc64b2b48a14e18298b9cad45ac64f123421585b
+InputHash:b55c4ef5a1e0981af95592749bb3e4277ef98f96

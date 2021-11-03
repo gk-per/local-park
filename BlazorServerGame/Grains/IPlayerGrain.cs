@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Orleans;
 
-namespace Presence.Grains
+namespace BlazorServer
 {
     /// <summary>
     /// Interface to an individual player that may or may not be in a game at any point in time.

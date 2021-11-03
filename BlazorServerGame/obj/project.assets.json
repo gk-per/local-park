@@ -368,6 +368,21 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "MsgPack.Cli/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "4.4.0",
+          "System.Numerics.Vectors": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.LightWeight": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MsgPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MsgPack.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -624,6 +639,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -1105,6 +1129,21 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Net.Sockets.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.Numerics.Vectors.dll": {}
         }
       },
       "System.ObjectModel/4.3.0": {
@@ -2337,6 +2376,39 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
+    "MsgPack.Cli/1.0.1": {
+      "sha512": "od0WujAAuPuRLoGfGNfE2iRPP7Kj+o174Oed2uirT03/Dp4rkccnEIqQl/QRHjly79sMwh6xKaIVsLqYwWtiHA==",
+      "type": "package",
+      "path": "msgpack.cli/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10/MsgPack.XML",
+        "lib/monoandroid10/MsgPack.dll",
+        "lib/net35/MsgPack.XML",
+        "lib/net35/MsgPack.dll",
+        "lib/net45/MsgPack.XML",
+        "lib/net45/MsgPack.dll",
+        "lib/net46/MsgPack.XML",
+        "lib/net46/MsgPack.dll",
+        "lib/netstandard1.1/MsgPack.XML",
+        "lib/netstandard1.1/MsgPack.dll",
+        "lib/netstandard1.3/MsgPack.XML",
+        "lib/netstandard1.3/MsgPack.dll",
+        "lib/netstandard2.0/MsgPack.XML",
+        "lib/netstandard2.0/MsgPack.dll",
+        "lib/sl5/MsgPack.XML",
+        "lib/sl5/MsgPack.dll",
+        "lib/uap10/MsgPack.XML",
+        "lib/uap10/MsgPack.dll",
+        "lib/windowsphone8/MsgPack.XML",
+        "lib/windowsphone8/MsgPack.dll",
+        "lib/xamarin.ios10/MsgPack.XML",
+        "lib/xamarin.ios10/MsgPack.dll",
+        "msgpack.cli.1.0.1.nupkg.sha512",
+        "msgpack.cli.nuspec"
+      ]
+    },
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -2684,6 +2756,27 @@
         "ref/uap10.0.16299/_._",
         "system.buffers.4.5.0.nupkg.sha512",
         "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.CodeDom/4.4.0": {
+      "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+      "type": "package",
+      "path": "system.codedom/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.xml",
+        "ref/netstandard2.0/System.CodeDom.dll",
+        "ref/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.4.4.0.nupkg.sha512",
+        "system.codedom.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -4237,6 +4330,41 @@
         "ref/xamarinwatchos10/_._",
         "system.net.sockets.4.3.0.nupkg.sha512",
         "system.net.sockets.nuspec"
+      ]
+    },
+    "System.Numerics.Vectors/4.3.0": {
+      "sha512": "uAIqmwiQPPXdCz59MQcyHwsH2MzIv24VGCS54kP/1GzTRTuU3hazmiPnGUTlKFia4B1DnbLWjTHoGyTI5BMCTQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.3.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec"
       ]
     },
     "System.ObjectModel/4.3.0": {
@@ -6257,7 +6385,8 @@
     "net5.0": [
       "Microsoft.Orleans.CodeGenerator.MSBuild >= 3.4.3",
       "Microsoft.Orleans.OrleansProviders >= 3.4.3",
-      "Microsoft.Orleans.Server >= 3.4.3"
+      "Microsoft.Orleans.Server >= 3.4.3",
+      "MsgPack.Cli >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -6317,6 +6446,10 @@
           "Microsoft.Orleans.Server": {
             "target": "Package",
             "version": "[3.4.3, )"
+          },
+          "MsgPack.Cli": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [

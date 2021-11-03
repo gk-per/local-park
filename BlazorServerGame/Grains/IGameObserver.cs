@@ -1,6 +1,6 @@
 using Orleans;
 
-namespace Presence.Grains
+namespace BlazorServer
 {
     /// <summary>
     /// Observer interface for an external client, such as a console app or a web frontend, to receive updates to the score of a particular game.

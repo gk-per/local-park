@@ -57,6 +57,10 @@
             "Microsoft.Orleans.Server": {
               "target": "Package",
               "version": "[3.4.3, )"
+            },
+            "MsgPack.Cli": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

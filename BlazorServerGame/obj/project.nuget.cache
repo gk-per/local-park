@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LOSsb9ZUskCZ/LhKfck9mIarApEJPIQTlbLKU1SEfsqOfHhm1yx8Tjdh34k4JByw2a8F7AYrNDq0dbDzExL8AQ==",
+  "dgSpecHash": "N+bh7YJoNrZywKYLZy07pdMB/DRbGOfblGwGQuycIUh3npvm2q0YbomU2EgsY5W50byc+xywfwlY7X9GN913GA==",
   "success": true,
   "projectFilePath": "C:\\src\\local-park\\BlazorServerGame\\BlazorServer.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.orleans.runtime.abstractions\\3.4.3\\microsoft.orleans.runtime.abstractions.3.4.3.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.orleans.server\\3.4.3\\microsoft.orleans.server.3.4.3.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\19859\\.nuget\\packages\\msgpack.cli\\1.0.1\\msgpack.cli.1.0.1.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -52,6 +53,7 @@
     "C:\\Users\\19859\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\19859\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512",
@@ -81,6 +83,7 @@
     "C:\\Users\\19859\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
+    "C:\\Users\\19859\\.nuget\\packages\\system.numerics.vectors\\4.3.0\\system.numerics.vectors.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\19859\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",

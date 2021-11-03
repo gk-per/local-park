@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BlazorServer.Models;
 using Microsoft.Extensions.Logging;
 using Orleans;
-using Presence.Grains.Models;
 
-namespace Presence.Grains
+namespace BlazorServer
 {
     /// <summary>
     /// Represents a game in progress and holds the game's state in memory.

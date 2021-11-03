@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Orleans;
 
-namespace Presence.Grains
+namespace BlazorServer
 {
     /// <summary>
     /// Represents an individual player that may or may not be in a game at any point in time.

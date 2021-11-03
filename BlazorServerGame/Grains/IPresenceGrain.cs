@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Orleans;
 
-namespace Presence.Grains
+namespace BlazorServer
 {
     /// <summary>
     /// Defines an interface for sending binary updates without knowing the specific game ID.
